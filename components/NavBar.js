@@ -26,7 +26,7 @@ const Navigation = () => {
   const router = useRouter();
   return (
     <>
-      {['lg'].map((expand) => (
+      {['md'].map((expand) => (
         <Navbar
           collapseOnSelect
           key={expand}
@@ -65,7 +65,7 @@ const Navigation = () => {
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <Image
-                    height="75"
+                    height="150"
                     src="./images/me-logo.png"
                     className=""
                     alt="logo"
@@ -76,43 +76,43 @@ const Navigation = () => {
                 <Nav className="justify-content-start  flex-grow-1">
                   <div className=" ">
                     <Link
-                      href="/pricing"
+                      href="#"
                       passHref
                       className={
-                        router.pathname == '/pricing'
-                          ? 'navHover p2 p-3'
-                          : 'p2 p-3 darkHover text-dark'
+                        router.pathname == '/#'
+                          ? 'navHover  p2 p-3'
+                          : 'p2 p-3 darkHover text-white'
                       }
                     >
-                      Pricing
+                      Introduction
                     </Link>
                   </div>
                 </Nav>
                 <Nav className="">
                   <div className="">
                     <Link
-                      href="/pay-fees"
+                      href="#about-me"
                       passHref
                       className={
-                        router.pathname == '/pay-fees'
+                        router.pathname == '/#about-me'
                           ? 'navHover p2 p-3'
-                          : 'p2 p-3 darkHover text-dark'
+                          : 'p2 p-3 darkHover text-white'
                       }
                     >
-                      Pay Fees
+                      About me
                     </Link>
                   </div>
                   <div className=" ">
                     <Link
-                      href="/login"
+                      href="#projects"
                       passHref
                       className={
-                        router.pathname == '/login'
+                        router.pathname == '/#projecs'
                           ? 'navHover p2 p-3 mt-2 mb-3 me-3 mb-xl-0'
-                          : 'p2 p-3 darkHover text-dark mt-2 mb-3 me-3 mb-xl-0'
+                          : 'p2 p-3 darkHover text-white mt-2 mb-3 me-3 mb-xl-0'
                       }
                     >
-                      Login
+                      Projects
                     </Link>
                   </div>
                 </Nav>

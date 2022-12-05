@@ -3,7 +3,7 @@ import { Image, Table } from 'react-bootstrap';
 
 const AboutMe = () => {
   return (
-    <div className="bg-light rounded-5 pb-5">
+    <div id="about-me" className="bg-light rounded-5 pb-5">
       <div className="text-center  container pt-4">
         <h1
           data-aos="zoom-in"

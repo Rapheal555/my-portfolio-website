@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap';
 
 const Projects = () => {
   return (
-    <div className="container mt-5">
+    <div id="projects" className="container mt-5">
       <h1
         data-aos="zoom-in"
         className="p-4 rounded-pill bg-info text-white shadow d-inline-block "
@@ -33,8 +33,15 @@ const Projects = () => {
                   className="bg-light rounded-5 p-4 mt-4 text-primary p1"
                 >
                   {t.description}
-                  <Link href={t.link}>Check it out</Link>
                 </p>
+                <div data-aos="flip-right" className="text-center">
+                  <Link
+                    className="btn btn-lg btn-outline-primary rounded-pill"
+                    href={t.link}
+                  >
+                    Check it out
+                  </Link>
+                </div>
               </div>
             </div>
           );
@@ -58,7 +65,7 @@ export const project = [
   },
   {
     title: 'My Portfolio',
-    link: '',
+    link: 'https://rapheal-odejinmi-portfolio-website.vercel.app/',
     description:
       'I built this Portfolio with React and Nextjs. It is amazing to finaly have my CV as a website, it is a great accomplishment for me as a developer .',
     image: '/images/portfolio.png',
