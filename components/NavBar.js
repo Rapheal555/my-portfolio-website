@@ -119,7 +119,7 @@ const Navigation = () => {
                     <i class="bi bi-linkedin head3 text-white"></i>
                   </Link>
                   <Link href="https://twitter.com/ROdejinmi">
-                    <i class="bi mx-5 bi-twitter head3 text-white"></i>
+                    <i class="bi mx-md-5 bi-twitter head3 text-white"></i>
                   </Link>
                   <Link href="https://github.com/Rapheal555">
                     <i class="bi bi-github head3 text-white"></i>

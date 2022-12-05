@@ -28,7 +28,7 @@ const AboutMe = () => {
               Nextjs which is now my favourite Framework
             </h3>
             <div className="pt-4 text-start">
-              <Table borderless hover>
+              <Table responsive="sm" borderless hover>
                 <tbody>
                   <tr data-aos="fade-left">
                     <td>Name:</td>

@@ -7,7 +7,7 @@ const Footer = () => {
         <i class="bi bi-linkedin head2 text-white"></i>
       </Link>
       <Link href="https://twitter.com/ROdejinmi">
-        <i class="bi mx-5 bi-twitter head2 text-white"></i>
+        <i class="bi mx-sm-5 mx-4 bi-twitter head2 text-white"></i>
       </Link>
       <Link href="https://github.com/Rapheal555">
         <i class="bi bi-github head2 text-white"></i>
