@@ -115,6 +115,15 @@ const Navigation = () => {
                       Projects
                     </Link>
                   </div>
+                  <Link href="https://www.linkedin.com/in/rapheal-odejinmi-9baa801a3/">
+                    <i class="bi bi-linkedin head3 text-white"></i>
+                  </Link>
+                  <Link href="https://twitter.com/ROdejinmi">
+                    <i class="bi mx-5 bi-twitter head3 text-white"></i>
+                  </Link>
+                  <Link href="https://github.com/Rapheal555">
+                    <i class="bi bi-github head3 text-white"></i>
+                  </Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

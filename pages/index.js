@@ -7,6 +7,7 @@ import Aos from 'aos';
 import { useEffect } from 'react';
 import Projects from '../components/Projects';
 import AboutMe from '../components/AboutMe';
+import Footer from '../components/Footer';
 
 export default function Home() {
   // useEffect(() => {
@@ -21,11 +22,12 @@ export default function Home() {
 
       <BackgroundAnimation />
 
-      <main className="anni pb-5">
+      <main className="anni">
         <Navigation />
         <Introduction />
         <AboutMe />
         <Projects />
+        <Footer />
       </main>
     </div>
   );
