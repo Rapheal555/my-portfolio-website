@@ -87,8 +87,6 @@ const Navigation = () => {
                       Introduction
                     </Link>
                   </div>
-                </Nav>
-                <Nav className="">
                   <div className="">
                     <Link
                       href="#about-me"
@@ -115,6 +113,8 @@ const Navigation = () => {
                       Projects
                     </Link>
                   </div>
+                </Nav>
+                <Nav className="">
                   <Link href="https://www.linkedin.com/in/rapheal-odejinmi-9baa801a3/">
                     <i class="bi bi-linkedin head3 text-white"></i>
                   </Link>
