@@ -35,7 +35,7 @@ const Navigation = () => {
           expand={expand}
           className="nav-backgroun"
         >
-          <Container className="backg">
+          <Container className="backgg">
             <Navbar.Brand className="">
               <Link href="/" passHref>
                 <span>
@@ -57,7 +57,7 @@ const Navigation = () => {
               // restoreFocus={false}
               // show={!menuOpen}
               // onHide={handleClose}
-              className="w-auto backg p-lg-3"
+              className="w-auto backgg p-lg-3"
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
