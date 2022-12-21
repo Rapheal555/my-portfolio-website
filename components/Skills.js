@@ -2,7 +2,7 @@ import { Image } from 'react-bootstrap';
 
 const Skills = () => {
   return (
-    <div data-aos="zoom-in" className="bg-light rounded-5 mt-4">
+    <div id="skills" data-aos="zoom-in" className="bg-light rounded-5 mt-4">
       <div className="container">
         <h1
           data-aos="zoom-in"

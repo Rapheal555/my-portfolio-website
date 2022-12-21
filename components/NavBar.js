@@ -100,6 +100,19 @@ const Navigation = () => {
                       About me
                     </Link>
                   </div>
+                  <div className="">
+                    <Link
+                      href="#skills"
+                      passHref
+                      className={
+                        router.pathname == '/#skills'
+                          ? 'navHover p2 p-3'
+                          : 'p2 p-3 darkHover text-white'
+                      }
+                    >
+                      Skills
+                    </Link>
+                  </div>
                   <div className=" ">
                     <Link
                       href="#projects"
