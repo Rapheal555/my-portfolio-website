@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import Projects from '../components/Projects';
 import AboutMe from '../components/AboutMe';
 import Footer from '../components/Footer';
+import Skills from '../components/Skills';
 
 export default function Home() {
   // useEffect(() => {
@@ -26,6 +27,7 @@ export default function Home() {
         <Navigation />
         <Introduction />
         <AboutMe />
+        <Skills />
         <Projects />
         <Footer />
       </main>
