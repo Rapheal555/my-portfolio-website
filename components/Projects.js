@@ -47,6 +47,7 @@ const Projects = () => {
           );
         })}
       </div>
+      <h1 className="text-white">And more...</h1>
     </div>
   );
 };
