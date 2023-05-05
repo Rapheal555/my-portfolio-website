@@ -18,6 +18,8 @@ export default function Home() {
   return (
     <div className=" px-3 px-md-0 ">
       <Head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8886187882221586"
+     crossorigin="anonymous"></script>
         <title>Rapheal Odejinmi</title>
       </Head>
 
